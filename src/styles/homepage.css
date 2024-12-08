@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .homepage {
+    text-align: center;
+  }
+  .logo
+  {
+    color: #ff2600;
+    font-weight: bolder;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links li {
+    display: inline;
+    text-decoration: none;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .login-button {
+    background-color: yellow;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    
+  }
+  
+  .hero-section {
+    background-image: url('../assets/images/unnamed.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .quote h1 {
+    font-size: 24px;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .buttons {
+    margin-top: 30px;
+  }
+  
+  .explore-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .explore-button.orange {
+    background-color: #ff2600;
+    color: white;
+  }
+  
+  .explore-button.yellow {
+    background-color: yellow;
+    color: black;
+  }
+  
